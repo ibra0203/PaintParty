@@ -1,0 +1,60 @@
+@import url('base.css');
+.painting{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: block;
+    overflow:hidden;
+    border-radius: 20px;
+    transition: all 0.5s;
+    
+}
+.painting:hover{
+        transition: all 0.5s;
+
+}
+.painting:hover >img{
+    top: -20%;
+    transition: all 0.5s;
+
+}
+.painting >img{
+    position: absolute;
+    top:0;
+    left: -50%;
+    transition: all 0.5s;
+
+}
+.painting.sold-out > img{
+     opacity: 0.3;
+}
+.painting.sold-out > a > .btn2, .painting.sold-out > a{
+     opacity: 0.0;
+    pointer-events:none;
+}
+.painting.sold-out > .painting-sold{
+    opacity: 1.0;
+}
+ .painting>a>.btn2, .painting-sold {
+    
+    position: absolute;
+    left:0%;
+    bottom:0%;
+         width: 100%;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+.btn2{
+    border-radius: 0%;
+
+}
+.painting-sold{
+    opacity: 0.0;
+   display: block;
+    color: #F19257;
+    background-color: black;
+    left: 40%;
+}
+
+

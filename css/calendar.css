@@ -1,0 +1,14 @@
+@import url('base.css');
+.title{
+    color:#5C5C5C;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+>p
+{
+     color:#5C5C5C;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+}

@@ -1,0 +1,48 @@
+@import url('base.css');
+.bg-1{
+    background-color: #D02E46;
+    display: block;
+    margin: 0;
+}
+.bg-2{
+    background-color: #F19257;
+    display: block;
+    margin: 0;
+}
+.sec-about
+{
+    background-color: #F19257;
+    display: block;
+   
+    margin: 0;
+    
+}
+.sec-about > p{
+      font-family: 'Crafty Girls', sans-serif;
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.sec-about > .title{
+  
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.sec-about > .title2{
+  
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sec-middle{
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+.sec-about.c2 {
+    background-color: #D02E46;
+}
+

@@ -127,7 +127,7 @@ footer p{
 }
 .btn1
 {
-    background-color: #F19257;
+    background-color: #7C1B2A;
     color: white;
     padding: 20px;
     display:inline-block;
@@ -137,7 +137,7 @@ footer p{
 }
 .btn1:hover
 {
-    background-color: #FFB485;
+    background-color: #9c3a4a;
     transition: 0.5s all;
 }
 
